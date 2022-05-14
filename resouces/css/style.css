@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Indie Flower', cursive;
+    
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Reenie Beanie', cursive;
+    
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2,
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.header {
+    
+    
+    height: 600px;
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    
+}
+
+.header h1 {
+    color: #DAF7A6;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #2C3E50;
+    justify-content: flex-end;
+    align-items: center;
+    
+   
+   
+    
+    
+}
+
+.navbar h1 {
+    margin-right: auto; 
+    margin-left: 20px;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 48px;
+    color: #BCAAA4;
+    
+}
+
+.navbar p {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 30px;
+    display: inline-block;
+    padding: 10px 30px;
+  }
+
+.navbar a {
+    color: #ABB2B9;
+}
+
+.navbar a:hover {
+    color: #DAF7A6;
+
+}
+
+
+
+.about {
+    display: flex;
+    background-color: #ABB2B9;
+    padding: 0 20px;
+   
+}
+
+.about img {
+    float: right;
+    padding: 10px 10px;
+    width: 100%;
+    height: auto;
+}
+
+#productContainer {
+   display: flex;
+    background-color: #BCAAA4;
+    padding: 0 20px;
+    justify-content: center;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    
+    gap: 10px 30px;
+    
+}
+
+.product p img {
+    display: flex;
+    width: 100%;
+    height: auto;
+    
+    
+    
+    
+    
+}
+
+.product img {
+    border-radius: 50%;
+}
+
+
+
+
